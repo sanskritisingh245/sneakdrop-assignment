@@ -47,7 +47,7 @@ async function userError(c: PoolClient, userId: string): Promise<string | null> 
   return null;
 }
 
-app.get('/', (_req, res) => res.sendFile(fileURLToPath(new URL('./index.html', import.meta.url))));
+app.use(express.static(fileURLToPath(new URL('../dist', import.meta.url))));
 
 app.get('/status', async (req, res) => {
   const userId = typeof req.query.userId === 'string' ? req.query.userId : '';
