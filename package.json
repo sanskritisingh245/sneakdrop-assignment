@@ -1,0 +1,35 @@
+{
+  "name": "sneakdrop-assignment",
+  "version": "1.0.0",
+  "description": "A small shoe brand is launching one limited sneaker. They only have 20 pairs. When the sale opens, thousands of people will click Buy at the same second.",
+  "scripts": {
+    "start": "node src/server.ts",
+    "loadtest": "node scripts/loadtest.ts",
+    "typecheck": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanskritisingh245/sneakdrop-assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/sanskritisingh245/sneakdrop-assignment/issues"
+  },
+  "homepage": "https://github.com/sanskritisingh245/sneakdrop-assignment#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "pg": "^8.23.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.3",
+    "@types/pg": "^8.23.1",
+    "typescript": "^7.0.2"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}
