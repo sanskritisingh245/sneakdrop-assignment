@@ -2,7 +2,7 @@
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/) 22.18 or newer. The TypeScript files run directly on Node, so no build step is needed.
+- [Node.js](https://nodejs.org/) 22.18 or newer. The server's TypeScript runs directly on Node. The React frontend is built with Vite automatically when the server starts.
 - [PostgreSQL](https://www.postgresql.org/) 13 or newer, running locally or reachable by URL.
 
 ### Environment variables
@@ -30,7 +30,7 @@ All are optional. The defaults work for a local setup.
    npm install
    ```
 
-3. Start the server:
+3. Build the frontend and start the server:
 
    ```bash
    npm start
