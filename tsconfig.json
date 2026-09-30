@@ -7,7 +7,8 @@
     "allowImportingTsExtensions": true,
     "erasableSyntaxOnly": true,
     "verbatimModuleSyntax": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "jsx": "react-jsx"
   },
-  "include": ["src", "scripts"]
+  "include": ["src", "scripts", "web", "vite.config.ts"]
 }
